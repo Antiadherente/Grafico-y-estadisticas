@@ -345,7 +345,7 @@ body{
 
 .status.delivered{
     padding: 2px 4px;
-    background:green;
+    background:rgb(4, 175, 4);
     color:var(--white);
     border-radius: 4px;
     font-size: 14px;
@@ -353,7 +353,7 @@ body{
 }
 .status.pending{
     padding: 2px 4px;
-    background:yellow;
+    background:rgb(189, 189, 2);
     color:var(--white);
     border-radius: 4px;
     font-size: 14px;
@@ -361,7 +361,7 @@ body{
 }
 .status.return{
     padding: 2px 4px;
-    background:red;
+    background:rgb(216, 27, 27);
     color:var(--white);
     border-radius: 4px;
     font-size: 14px;
@@ -369,7 +369,7 @@ body{
 }
 .status.inprogress{
     padding: 2px 4px;
-    background:blue;
+    background:rgb(18, 18, 218);
     color:var(--white);
     border-radius: 4px;
     font-size: 14px;

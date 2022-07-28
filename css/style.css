@@ -267,6 +267,28 @@ body{
     color: var(--white);
 }
 
+
+.graphBox{
+    position: relative;
+    width: 100%;
+    padding:20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+    min-height: 200px;
+}
+
+
+.graphBox .box{
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    width:100%;
+    box-shadow: 0 7 25px rgba(0,0,0,0.08);
+    border-radius: 20px;
+}
+
+
 .details{
     position: relative;
     width: 170%;
@@ -300,7 +322,7 @@ body{
 
 .btn{
     position: relative;
-    padding: 5 10px;
+    padding: 5px 5px;
     background: var(--blue);
     text-decoration: none;
     color: var(--white);
